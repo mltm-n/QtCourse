@@ -12,6 +12,7 @@ void display(QString * value)
 
 int main(int argc, char *argv[])
 {
+    qInfo() << "My Github deneme";
     QCoreApplication a(argc, argv);
 
               QString name = "Meltem"; //stack
