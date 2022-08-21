@@ -8,5 +8,5 @@ radio::radio(QObject *parent)
 
 void radio::listen(int channel, QString name, QString message)
 {
-
+    qInfo()<<channel<<" "<< name << "-"<<message;
 }
